@@ -41,13 +41,13 @@ class WeatherList extends Component {
           <div>{cityName}</div>
         </td>
         <td>
-          <Chart data={temperature} unit="°C" width={250} height={100} min="-20" max="50" color="orange"/>
+          <Chart data={temperature} unit="°C" width={250} height={100} min={-20} max={50} color="orange"/>
         </td>
         <td>
-          <Chart data={pressure} unit="hPa" width={250} height={100} min="800" max="1050" color="green"/>
+          <Chart data={pressure} unit="hPa" width={250} height={100} min={800} max={1050} color="green"/>
         </td>
         <td>
-          <Chart data={humidity} unit="%" width={250} height={100} min="0" max="100" color="blue"/>
+          <Chart data={humidity} unit="%" width={250} height={100} min={0} max={100} color="blue"/>
         </td>
       </tr>
     );
